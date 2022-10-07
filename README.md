@@ -13,6 +13,7 @@
 |Web|√|
 |微信小程序|√|
 |iOS|√|
+|Android|√|
 
 ## 依赖
 
@@ -38,5 +39,5 @@ let b = clone78(a)
 ```
 
 ## OTHER
-
+https://github.com/www778878net/clone78.git
 you can see test/test.js

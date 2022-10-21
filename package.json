@@ -1,6 +1,6 @@
 {
   "name": "@www778878net/clone78",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "deep copy  all",
   "main": "dist/index.js",
   "types": "src/index.ts",

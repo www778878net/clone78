@@ -28,11 +28,11 @@
     "postpublish": "git push origin --all && git push origin --tags",
     "postversion": "npm publish --access public",
     "preversion": "npm test ",
-    "test": "tsc   && mocha --config c:\\test7788\\test\\localtest.json   --reporter spec  -t 5000  --exit",
+    "test": "tsc   && mocha     --reporter spec  -t 5000  --exit",
     "build": "tsc -p"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=12.0.0"
   },
   "bundledDependencies": false,
   "devDependencies": {
@@ -44,7 +44,5 @@
     "mocha": "^9.0.2",
     "nodemon": "^2.0.20",
     "typescript": "^4.8.4"
-  },
-  "dependencies": {},
-  "bundleDependencies": []
+  }
 }
